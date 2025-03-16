@@ -2,12 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.6) 0%, rgba(0, 0, 0, 0.8) 100%), 
+                url('https://i.imgur.com/dvJ0sxH.jpeg') no-repeat center center fixed;
+    background-size: cover;
     text-align: center;
 }
 
 .header {
-    background: #1a73e8;
+    background: transparent; /* 取消藍色背景 */
     color: white;
     padding: 20px;
 }
@@ -80,3 +82,4 @@ img {
     height: 24px;
     margin-right: 10px;
 }
+
